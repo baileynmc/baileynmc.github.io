@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+.App {
+  text-align: center;
+}
+
+/* Large devices laptops, 768px and up*/
+  .App .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .App .navigation {
+    float: left;
+    text-align: left;
+    font-size: calc(10px + 1.7vmin);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    position: fixed;
+    left: 6%;
+    top: 24%;
+  }
+
+  .App .navigation a, li {
+    text-decoration: none;
+    color: #50717b;
+    margin-bottom: .5em;
+  }
+
+.App .navigation a {
+  box-shadow: inset 0 -0.07em 0 #a2d5fe;
+  transition: box-shadow .2s;
+}
+
+.App .navigation a:hover {
+  box-shadow: inset 0 -1.4em 0 #a2d5fe;
+}
+
+.App .navigation .active {
+    color: #000249;
+}
+
+/* Medium devices tablets, 768px and up*/
+@media only screen and (max-width: 992px) {
+  .App .navigation {
+    text-align: center;
+    font-size: calc(10px + 1.5vmin);
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .App .navigation a, li {
+    text-decoration: none;
+    color: #50717b;
+    padding: .3em;
+    margin: .1em;
+    display: inline;
+    border-radius: .3em;
+  }
+  .App .navigation a {
+    box-shadow: inset -0.5em -2.1em 0 #a2d5fe;
+    transition: box-shadow .2s;
+  }
+  .App .navigation a:hover {
+    box-shadow: inset -0.5em -2.1em 0 #bde1ff;
+  }
+}
+
+/* Small devices phones*/
+@media only screen and (max-width: 576px) {
+
+  .App .navigation a, li {
+    text-decoration: none;
+    color: #50717b;
+    margin-bottom: .5em;
+    display: inline;
+  }
+}
+
+.project {
+  height: 13em;
+  width: 20em;
+  position: relative;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  display: inline-block;
+  margin: .4em;
+}
+
+.project .project-title {
+  position: absolute;
+  bottom: 1.4em;
+  left: .7em;
+  font-family: 'Jost', sans-serif;
+  font-size: 1.3em;
+  color: #000249;
+  opacity: 0;
+  transition: .2s ease;
+}
+
+.project:hover .project-title {
+  opacity: 1;
+}
+
+.project .project-category {
+  position: absolute;
+  bottom: .4em;
+  left: .8em;
+  font-family: 'Jost', sans-serif;
+  font-size: 1.1em;
+  color: #000249;
+  opacity: 0;
+  transition: .2s ease;
+}
+
+.project:hover .project-category {
+  opacity: 1;
+}
+
+.project .project-image img {
+  position: inherit;
+  border-radius: 0em;
+  height: 13em;
+  width: 20em;
+  border-radius: 1em;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.project:hover .project-image img{
+  opacity: 0.1;
+}

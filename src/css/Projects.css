@@ -1,0 +1,69 @@
+.Projects h3 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  font-size: calc(12px + 2.5vmin);
+  text-align: center;
+  text-transform: uppercase;
+  color: #000249;
+  margin: 2vw 0vw 1vw 0vw;
+}
+
+.Projects p {
+  color: #415f77;
+  font-family: 'Jost', sans-serif;
+  font-size: calc(10px + 1vmin);
+  margin-bottom: 2vw;
+}
+
+img.project {
+  width: 30%;
+  height: 30%;
+  display: inline;
+  border: solid 1px #415f77;
+  margin: 0em 2px 0em 2px;
+  border-radius: 0;
+}
+
+.projectContent {
+  padding: 0% 18% 7% 18%;
+}
+
+img.coverPhoto {
+  width: 90%;
+  height: 90%;
+}
+
+img.square {
+  width: 30%;
+  height: 30%;
+  display: inline;
+  margin: 0px 2px 0px 2px
+}
+
+img.logo {
+  width: 50%;
+  height: 50%;
+}
+
+img.screen {
+  margin: 0em 2px 0em 2px;
+  width: 45%;
+  height: 45%;
+  display: inline;
+  border: solid 1px #415f77;
+}
+
+img.prototype {
+  width: 80%;
+  height: 80%;
+  border: solid 1px #415f77;
+}
+
+blockquote {
+  background: #dbefff;
+  color: #005792;
+  border-left: 10px solid #000249;;
+  margin: 0px 5% 0px 5%;
+  padding: 0.5em 10px;
+  font-style: italic;
+}

@@ -1,0 +1,30 @@
+.projectHeader {
+  background-color: #c4e5ff;
+  padding: 4% 18% 4% 18%;
+}
+
+.projectHeader .project-title {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  font-size: calc(10px + 5vmin);
+}
+
+.projectHeader .project-category {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: calc(10px + 1vmin);
+  letter-spacing: 5px;
+  margin-top: -0.5vw;
+  margin-bottom: 1vw;
+}
+
+.projectHeader  .project-description {
+  font-family: 'Jost', sans-serif;
+  font-size: calc(10px + 1vmin);
+}
+
+@media only screen and (max-width: 992px) {
+  .projectHeader {
+    padding: calc(9% + 6vw) 18% 4% 18%;
+  }
+}

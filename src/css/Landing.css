@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+.Landing h2 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: calc(12px + 4.5vmin);
+  position: absolute;
+  top: 18%;
+  left: 25%;
+  max-width: 10em;
+  text-align: left;
+  z-index: 1;
+  color: #000249;
+}
+
+.Landing img {
+  width: 41vw;
+  height: 37vw;
+  border-radius: 4em;
+  position: absolute;
+  top: 6%;
+  left: 46%;
+}
+
+.Landing .content {
+  background-color: #c4e5ff;
+  margin-top: 32%;
+  margin-left: 14%;
+  margin-right: 14%;
+  padding-top: 10%;
+  width: 75%;
+}
+
+.Landing .content .thumbnails {
+  text-align: left;
+  margin-left: 3.5%;
+  margin-right: 3%;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .Landing img {
+    width: 30vw;
+    height: 26vw;
+    border-radius: 2em;
+    position: absolute;
+    top: 7em;
+    left: 56%;
+    display: hidden;
+  }
+
+  .Landing h2 {
+    left: 4.5em;
+    top: 4em;
+    font-size: calc(10px + 2.7vw);
+  }
+
+  .Landing .content {
+    margin-top: calc(38% + 3em);
+  }
+
+}
